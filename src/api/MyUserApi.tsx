@@ -112,7 +112,6 @@ export const useUpdateMyUser = () => {
     isLoading,
     isSuccess,
     error,
-    reset,
   } = useMutation(updateMyUserRequest);
 
   if (isSuccess) {
